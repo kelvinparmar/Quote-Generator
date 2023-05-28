@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('library.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-repeat: no-repeat cover/ cover;
+}  
+.header{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.main-content{
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+.author{
+    padding: 20px;
+    color: red;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
